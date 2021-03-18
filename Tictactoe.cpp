@@ -18,10 +18,10 @@
     }
 
     bool Tictactoe::testeVictoireVerticale(){
-        for(int i=0;1<2;1++){
+        for(int i=0;i<2;i++){
         if(_grilleDeJeu.getContent(0,i)==_grilleDeJeu.getContent(1,i)
         && _grilleDeJeu.getContent(0,i)==_grilleDeJeu.getContent(2,i)
-        && -_grilleDeJeu.getContent(0,i)!' ')
+        && -_grilleDeJeu.getContent(0,i)!=' ')
         {return true;}
         }
         return : false;
